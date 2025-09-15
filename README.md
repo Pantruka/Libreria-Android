@@ -280,7 +280,7 @@ La aplicación sigue el patrón **Fragment-based navigation** con una **Bottom N
 
 1. **Inicio**: El usuario ve la pantalla de bienvenida con el logo
 2. **Explorar**: Navega a "Libros" para ver la colección
-3. **Seleccionar**: Toca "VER DETALLES" en cualquier libro
+3. **Seleccionar**: Toca "DETALLES" en cualquier libro
 4. **Leer**: Ve información completa del libro seleccionado
 5. **Volver**: Regresa a la lista o navega a otras secciones
 
