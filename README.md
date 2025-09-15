@@ -297,3 +297,6 @@ La aplicación sigue el patrón **Fragment-based navigation** con una **Bottom N
 ## 👨‍💻 Desarrollado por
 **Ricardo Ruiz Palacios**  
 Evaluación Final Módulo 4
+
+## 🔗 Enlace Git
+** https://github.com/Pantruka/Libreria-Android.git **
