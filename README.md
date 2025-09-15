@@ -299,4 +299,4 @@ La aplicación sigue el patrón **Fragment-based navigation** con una **Bottom N
 Evaluación Final Módulo 4
 
 ## 🔗 Enlace Git
-** https://github.com/Pantruka/Libreria-Android.git **
+**https://github.com/Pantruka/Libreria-Android.git**
