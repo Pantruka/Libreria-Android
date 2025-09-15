@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Escalamos TODO el logo (fondo + libro) -->
+    <group
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:translateX="-10"
+        android:translateY="-10">
+
+        <!-- Fondo circular blanco -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,0
+                C83.823,0 108,24.177 108,54
+                C108,83.823 83.823,108 54,108
+                C24.177,108 0,83.823 0,54
+                C0,24.177 24.177,0 54,0 Z" />
+
+        <!-- Libro y sus detalles -->
+        <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:endX="85.84757"
+                    android:endY="92.4963"
+                    android:startX="42.9492"
+                    android:startY="49.59793"
+                    android:type="linear">
+                    <item android:color="#44000000" android:offset="0.0" />
+                    <item android:color="#00000000" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <path
+            android:fillColor="@color/base"
+            android:fillType="nonZero"
+            android:pathData="M35,28 L75,28 Q77,28 77,30 L77,80 Q77,82 75,82 L37,82 Q35,82 35,80 Z"
+            android:strokeWidth="1"
+            android:strokeColor="#1A252F" />
+
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillType="nonZero"
+            android:pathData="M77,30 L79,32 L79,82 L77,80 Z"
+            android:strokeWidth="0.5"
+            android:strokeColor="#E0E0E0" />
+
+        <path
+            android:fillColor="#F5F5F5"
+            android:fillType="nonZero"
+            android:pathData="M79,32 L81,34 L81,84 L79,82 Z"
+            android:strokeWidth="0.5"
+            android:strokeColor="#E0E0E0" />
+
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillType="nonZero"
+            android:pathData="M42,38 L68,38 Q69,38 69,39 L69,47 Q69,48 68,48 L42,48 Q41,48 41,47 L41,39 Q41,38 42,38 Z"
+            android:strokeWidth="1"
+            android:strokeColor="#00000000" />
+
+        <path android:fillColor="#34495E"
+            android:pathData="M40,58 L70,58 Q71,58 71,58.5 Q71,59 70,59 L40,59 Q39,59 39,58.5 Q39,58 40,58 Z" />
+
+        <path android:fillColor="#34495E"
+            android:pathData="M40,64 L65,64 Q66,64 66,64.5 Q66,65 65,65 L40,65 Q39,65 39,64.5 Q39,64 40,64 Z" />
+
+        <path android:fillColor="#34495E"
+            android:pathData="M40,70 L70,70 Q71,70 71,70.5 Q71,71 70,71 L40,71 Q39,71 39,70.5 Q39,70 40,70 Z" />
+
+        <path android:fillColor="#34495E"
+            android:pathData="M40,76 L68,76 Q69,76 69,76.5 Q69,77 68,77 L40,77 Q39,77 39,76.5 Q39,76 40,76 Z" />
+
+    </group>
+</vector>

@@ -1,0 +1,39 @@
+# Archivos de compilación y APKs
+*.apk
+*.aab
+*.ap_
+*.class
+*.jar
+*.dex
+
+# Archivos de configuración y cache de Gradle
+.gradle/
+/build/
+/local.properties
+/captures
+.externalNativeBuild
+.cxx
+.DS_Store
+
+# Archivos del IDE (Android Studio / IntelliJ)
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Archivos de seguridad (nunca deben subirse)
+*.jks
+*.keystore
+/secrets.properties
+**/google-services.json
+
+# Otros archivos
+/bin/
+/gen/
+*.log
+.vscode/
+.fake
